@@ -1,0 +1,29 @@
+{
+"zoro": {
+    "password": "1",
+    "historyBySession": {
+      "Chat 19/07/2025 16:00": [
+        { "sender": "user", "text": "Halo" },
+        { "sender": "bot", "text": "Hai, ada yang bisa saya bantu?" }
+      ]
+    }
+  },
+  "ryu": {
+    "password": "1",
+    "historyBySession": {
+      "Chat 19/07/2025 16:00": [
+        { "sender": "user", "text": "ambatukammmm" },
+        { "sender": "bot", "text": "arghhhhhhh crott" }
+      ]
+    }
+  },
+  "manz": {
+    "password": "1",
+    "historyBySession": {
+      "Chat 19/07/2025 16:00": [
+        { "sender": "user", "text": "ambatukammmm" },
+        { "sender": "bot", "text": "arghhhhhhh crott" }
+      ]
+    }
+  }
+}

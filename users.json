@@ -47,5 +47,9 @@
   "zura": {
     "password": "1",
     "historyBySession": {}
+  },
+  "riz": {
+    "password": "1",
+    "historyBySession": {}
   }
 }

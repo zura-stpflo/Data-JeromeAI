@@ -55,5 +55,11 @@
   "sulis": {
     "password": "1",
     "historyBySession": {}
+  },
+  "zuraa": {
+    "password": "1",
+    "historyBySession": {
+      "Chat 24/7/2025 16.09": []
+    }
   }
 }

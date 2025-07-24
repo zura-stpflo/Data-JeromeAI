@@ -51,5 +51,9 @@
   "riz": {
     "password": "1",
     "historyBySession": {}
+  },
+  "sulis": {
+    "password": "1",
+    "historyBySession": {}
   }
 }

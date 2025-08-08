@@ -65,7 +65,32 @@
   "zerxx": {
     "password": "1",
     "historyBySession": {
-      "Chat 24/7/2025 21.15": []
+      "Chat 24/7/2025 21.15": [
+        {
+          "sender": "user",
+          "text": "hello"
+        },
+        {
+          "sender": "bot",
+          "text": "Hello there! How can I help you today?\n"
+        },
+        {
+          "sender": "user",
+          "text": "buatkan resep mnasi goreng sederhana"
+        },
+        {
+          "sender": "bot",
+          "text": "## Nasi Goreng Sederhana\n\nResep ini cukup untuk 2 porsi.\n\n**Bahan-bahan:**\n\n* 2 piring nasi putih (sisa nasi kemarin lebih enak!)\n* 2 butir telur\n* 2 siung bawang putih, cincang halus\n* 1 buah bawang merah, cincang halus\n* 1 buah cabai merah/hijau, iris serong (sesuai selera, bisa di skip)\n* 2 sendok makan kecap manis\n* 1 sendok makan kecap asin\n* 1 sendok teh saus tiram (optional)\n* Sedikit minyak goreng\n* Garam dan merica secukupnya\n* Bawang prei iris (untuk taburan, optional)\n\n\n**Cara Membuat:**\n\n1. **Kocok telur:** Kocok telur hingga sedikit berbusa.\n2. **Tumis bumbu:** Panaskan minyak goreng dalam wajan. Tumis bawang putih dan bawang merah hingga harum. Tambahkan cabai (jika menggunakan), tumis sebentar hingga layu.\n3. **Masukkan nasi:** Masukkan nasi putih ke dalam wajan. Aduk rata dengan bumbu.\n4. **Masukkan telur:** Tuang telur kocok ke dalam wajan.  Aduk rata hingga telur tercampur dengan nasi.\n5. **Bumbui:** Tambahkan kecap manis, kecap asin, dan saus tiram (jika menggunakan). Aduk rata. Bubuhi garam dan merica secukupnya.  Aduk terus hingga nasi tercampur rata dan bumbu meresap.\n6. **Sajikan:** Sajikan nasi goreng hangat. Taburi dengan bawang prei iris (jika menggunakan).\n\n\n**Tips & Variasi:**\n\n* Untuk rasa yang lebih gurih, bisa ditambahkan sedikit kaldu ayam atau penyedap rasa.\n* Tambahkan sayuran lainnya seperti wortel, sawi, atau kubis yang diiris tipis.\n*  Bisa ditambahkan protein seperti ayam suwir, udang, atau bakso yang sudah dipotong kecil-kecil.  Masukkan protein bersamaan dengan telur.\n*  Atur tingkat kepedasan sesuai selera dengan menambahkan lebih banyak cabai atau jenis cabai yang lebih pedas.\n\n\nSelamat mencoba!\n"
+        },
+        {
+          "sender": "user",
+          "text": "buatkan code html crome dino"
+        },
+        {
+          "sender": "bot",
+          "text": "Kode HTML murni tidak cukup untuk membuat game Chrome Dino yang berfungsi penuh.  Game tersebut menggunakan JavaScript untuk logika permainan, deteksi tabrakan, dan pergerakan.  Berikut adalah kerangka HTML dasar yang akan memberikan struktur visual yang mirip dengan game Chrome Dino.  Anda *harus* menambahkan JavaScript untuk membuat game tersebut berfungsi.\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<title>Chrome Dino Game (Simulasi)</title>\n<style>\nbody {\n  background-color: #f7f7f7; /* Warna latar belakang */\n  overflow: hidden; /* Mencegah scrollbar */\n}\n\n#game {\n  width: 600px;\n  height: 150px;\n  margin: 50px auto;\n  background-color: #fff; /* Warna latar game */\n  border: 1px solid #ccc; /* Garis tepi */\n  overflow: hidden; /* Mencegah scrollbar */\n  position: relative; /* Untuk posisi absolut dino dan kaktus */\n}\n\n#dino {\n  width: 30px;\n  height: 40px;\n  background-color: #ff6600; /* Warna dino */\n  position: absolute;\n  bottom: 0;\n  left: 10px;\n}\n\n.cactus {\n  width: 20px;\n  height: 30px;\n  background-color: #008000; /* Warna kaktus */\n  position: absolute;\n  bottom: 0;\n}\n</style>\n</head>\n<body>\n\n<div id=\"game\">\n  <div id=\"dino\"></div>\n</div>\n\n<script>\n// --- TAMBAHKAN JAVASCRIPT DI SINI ---\n// Ini adalah tempat Anda akan menambahkan logika game (gerakan, lompatan, deteksi tabrakan, dsb.)\n\n  //Contoh sederhana untuk memindahkan kaktus (perlu di sempurnakan)\n  let cactus = document.createElement('div');\n  cactus.classList.add('cactus');\n  cactus.style.left = '600px'; //Posisi awal di luar layar\n  document.getElementById('game').appendChild(cactus);\n\n  function moveCactus() {\n    let left = parseInt(cactus.style.left);\n    cactus.style.left = (left - 5) + 'px'; //Gerakan ke kiri\n    if(left < -20){\n      cactus.style.left = '600px'; // Kembali ke posisi awal\n    }\n  }\n\nsetInterval(moveCactus, 10);\n\n</script>\n\n</body>\n</html>\n```\n\nIngatlah bahwa kode JavaScript di atas sangat sederhana dan hanya membuat kaktus bergerak.  Untuk membuat game yang berfungsi penuh, Anda perlu menambahkan:\n\n* **Logika lompatan dino:**  Mendengarkan event keyboard (spasi) untuk membuat dino melompat.\n* **Gravitasi:**  Membuat dino jatuh kembali ke tanah setelah melompat.\n* **Deteksi tabrakan:**  Memeriksa apakah dino bertabrakan dengan kaktus.\n* **Generasi kaktus:**  Membuat kaktus baru muncul secara acak.\n* **Skor:**  Menghitung dan menampilkan skor pemain.\n* **Game over:**  Menampilkan pesan game over jika dino bertabrakan dengan kaktus.\n\n\nMenciptakan game ini membutuhkan pengetahuan pemrograman JavaScript yang cukup.  Anda bisa mencari tutorial JavaScript game development untuk mempelajari lebih lanjut.  Contoh kode di atas hanya sebagai titik awal.\n"
+        }
+      ]
     }
   },
   "fanz": {

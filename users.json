@@ -230,7 +230,16 @@
   "ryu-real": {
     "password": "ryu",
     "historyBySession": {
-      "Chat 9/8/2025 15.06": []
+      "Chat 9/8/2025 15.06": [
+        {
+          "sender": "user",
+          "text": "hai"
+        },
+        {
+          "sender": "bot",
+          "text": "Maaf, tidak ada jawaban."
+        }
+      ]
     }
   },
   "kntl": {

@@ -46,7 +46,9 @@
   },
   "zura": {
     "password": "1",
-    "historyBySession": {}
+    "historyBySession": {
+      "Chat 18/8/2025 15.20.39": []
+    }
   },
   "riz": {
     "password": "1",
